@@ -1,80 +1,81 @@
-html, body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-button{
-    border: none;
-    cursor: pointer;
+button {
+  border: none;
+  cursor: pointer;
 }
 
-
-.my_page{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.my_page {
+  height: 692px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.my_page > .title{
-    font-size: 2.3em;
-    margin: 64px 0;
+.my_page > .title {
+  font-size: 2.3em;
+  margin: 64px 0;
 }
 
-.my_page > .image_wrap{
-    position: relative;
+.my_page > .image_wrap {
+  position: relative;
 }
-.my_page >.image_wrap> img{
-    width: 130px;
-    height: 130px;
-}
-
-.my_page > .image_wrap > .circle{
-    position: absolute;
-    right: 10px;
-    top: 100px;
-    width: 20px;
-    height: 20px;
-    background-color: #fff;
-    border: 1px solid #cdd3e9;
-    border-radius: 20px;
+.my_page > .image_wrap > img {
+  width: 130px;
+  height: 130px;
 }
 
-.my_page > .btn_wrap{
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 20%;
+.my_page > .image_wrap > .circle {
+  position: absolute;
+  right: 10px;
+  top: 100px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid #cdd3e9;
+  border-radius: 20px;
 }
 
-.btn_wrap > button{
-    width: 100%;
-    height: 48px;
-    border-radius: 8px;
-    font-size: 1.2em;
-    box-shadow: 4px 1px 6px #00000085;
-}
-.btn_wrap > .logout_btn{
-    color: #fff;
-    background-color: #7384bd;
-
+.my_page > .btn_wrap {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 20%;
 }
 
-.btn_wrap > .withdrawal_btn{
-    background-color: #fff;
-    border: 1px solid #7384bd;
-    color: #7384bd;
+.btn_wrap > button {
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  box-shadow: 4px 1px 6px #00000085;
+}
+.btn_wrap > .logout_btn {
+  color: #fff;
+  background-color: #7384bd;
 }
 
-.btn_wrap > button:hover{
-    transform: scale(1.02);
+.btn_wrap > .withdrawal_btn {
+  background-color: #fff;
+  border: 1px solid #7384bd;
+  color: #7384bd;
 }
 
-.btn_wrap > .logout_btn:active{
-    background-color: #536291;
+.btn_wrap > button:hover {
+  transform: scale(1.02);
 }
 
-.btn_wrap > .withdrawal_btn:active{
-    background-color: #eee5e5;
+.btn_wrap > .logout_btn:active {
+  background-color: #536291;
+}
+
+.btn_wrap > .withdrawal_btn:active {
+  background-color: #eee5e5;
 }
