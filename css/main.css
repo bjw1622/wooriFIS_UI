@@ -52,3 +52,17 @@
   border: none;
   background-color: white;
 }
+.main-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 66px;
+}
+.main-card-calendar {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-top: 42px;
+}
+a {
+  text-decoration: none;
+}
