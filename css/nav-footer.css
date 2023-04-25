@@ -1,7 +1,7 @@
 .copyright-footer {
   position: fixed;
-  bottom: 40px;
-  padding-left: 40px;
+  bottom: 0px;
+  padding: 20px 40px;
   width: 100%;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.5);
