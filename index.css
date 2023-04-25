@@ -1,0 +1,134 @@
+html {
+  width: 100vh;
+  height: 100vh;
+}
+body {
+  width: 100vh;
+  height: 100vh;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+/* main-one  */
+.main-one {
+  width: 1920px;
+  height: 960px;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg, #e1dafb -1.04%, hsla(0, 0%, 100%, 0));
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  margin-top: 266px;
+}
+.desc {
+  margin-top: 24px;
+  margin-bottom: 56px;
+}
+.btns {
+  display: flex;
+}
+.btn-signin {
+  background-color: #937cf1;
+  width: 240px;
+  height: 48px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid #937cf1;
+}
+.btn-sigup {
+  background-color: white;
+  margin-left: 8px;
+  background-color: #fff;
+  border: 1px solid #937cf1;
+  width: 240px;
+  height: 48px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #937cf1;
+}
+.arrow-desc {
+  margin-top: 124px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #937cf1;
+  margin-bottom: 12px;
+}
+
+/* main-two */
+.main-two {
+  margin-bottom: 200px;
+  width: 1920px;
+  height: 1200px;
+}
+.main-two-desc {
+  margin-top: 200px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #121212;
+}
+.main-two-sub-desc {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #888888;
+  margin-top: 24px;
+  text-align: center;
+}
+.main-two-card {
+  margin-top: 72px;
+  text-align: center;
+}
+.main-two-card-first {
+  margin-bottom: 24px;
+}
+/* main-third */
+.main-third {
+  width: 1920px;
+  height: 408px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 24.57%,
+    #e1dafb 100%
+  );
+  margin-top: 274px;
+}
+.main-third-title {
+  color: #121212;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 96px;
+  text-align: center;
+}
+.main-third-desc {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #121212;
+  margin-top: 24px;
+  text-align: center;
+}
+.btns-third {
+  display: flex;
+  justify-content: center;
+  margin-top: 56px;
+}
