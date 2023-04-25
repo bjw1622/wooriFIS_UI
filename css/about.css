@@ -36,11 +36,11 @@ body {
   top: 200px;
 }
 .section_two > div:nth-child(2) {
-  right: 470px;
+  left: 970px;
   top: 336px;
 }
 .section_two > div:nth-child(3) {
-  right: 390px;
+  left: 970px;
   bottom: 200px;
 }
 .section_third {
