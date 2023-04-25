@@ -1,68 +1,67 @@
-main{
-    text-align: center;
+main {
+  text-align: center;
 }
 
-h1{
-    margin-top: 200px;
+h1 {
+  margin-top: 200px;
 }
-.intro{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 200px;
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
 }
-.btn{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    
-    
-    
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
 }
-#google{
-    color: black;
-    background-color: white;
-    border: 1px solid #121212;
-    padding: 15px 210px;
-    border-radius: 10px;
-    margin-bottom:16px
+#google {
+  color: black;
+  background-color: white;
+  border: 1px solid #121212;
+  padding: 15px 210px;
+  border-radius: 10px;
+  margin-bottom: 16px;
 }
 
-#kakao{
-    border: yellow;
-    color: black;
-    background-color: yellow;
-    padding: 15px 210px;
-    border-radius: 10px;
-    margin-bottom:16px
-
+#kakao {
+  border: yellow;
+  color: black;
+  background-color: yellow;
+  padding: 15px 210px;
+  border-radius: 10px;
+  margin-bottom: 16px;
 }
 
-#naver{
-    border: green;
-    color: white;
-    background-color:#00C300;
-    padding: 15px 210px;
-    border-radius: 10px;
-    
-
+#naver {
+  border: green;
+  color: white;
+  background-color: #00c300;
+  padding: 15px 210px;
+  border-radius: 10px;
 }
-.info{
-    color: rgb(85,26,139);
-    margin-top: 64px;
+.info {
+  color: black;
+  margin-top: 32px;
 }
 
-
-a:visited, a:link, a:active
-{
-    text-decoration: none;
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
 }
 
-.btn > a{
-    font-size: 13px;
-    width: 160px;
-
+.btn > a {
+  font-size: 13px;
+  width: 160px;
+}
+.temp {
+  color: black;
+}
+.temp:hover {
+  font-weight: 900;
 }
