@@ -1,6 +1,5 @@
 .copyright-footer {
-  position: fixed;
-  bottom: 0px;
+  position: absolute;
   padding: 20px 40px;
   width: 100%;
   font-size: 14px;
