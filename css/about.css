@@ -4,8 +4,6 @@ body {
   margin: 0;
   padding: 0;
 }
-.about_page {
-}
 
 .about_page > section {
   min-height: 100vh;
